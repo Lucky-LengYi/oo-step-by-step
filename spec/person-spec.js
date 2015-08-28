@@ -1,3 +1,5 @@
+'use strict';
+
 var Person = require('../src/person');
 
 describe('Person', function() {

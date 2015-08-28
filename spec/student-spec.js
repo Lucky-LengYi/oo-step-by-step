@@ -1,3 +1,5 @@
+'use strict';
+
 var Student = require('../src/student');
 
 describe('Student', function() {
