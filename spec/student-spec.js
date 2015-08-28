@@ -12,7 +12,7 @@ describe('Student', function() {
     describe('#introduce', function() {
         it('should return I am a Student. I am at Class 2', function() {
             var student = new Student('Tom', 21, 2);
-            expect(student.introduce()).toBe('I am a Student. I am at Class 2');
+            expect(student.introduce()).toBe('My name is Tom. I am 21 years old. I am a Student. I am at Class 2.');
         });
     });
 });
